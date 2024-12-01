@@ -1,0 +1,31 @@
+/* styles for the body element */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #39a6B2;
+}
+
+/* The CSS Box Model is a visual display of properties in the CSS box
+that includes the content, padding, border, and margins. 
+From top the bottom the CSS Box Model goes Margin - Border - Padding - (Content)*/
+/* Padding creates space inside the box whereas margin creates space outsdie the box */
+
+/* styles for the header element */
+header {
+    /* In this case padding applies 20px to the top and bottom
+    and 35px to the left and right but padding goes Top right Bottom Left */
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+/* styles for h1 in the header element  */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+}
+
+/* styles for a in the header element   */
+header a {
+    color: #fce138;
+}
