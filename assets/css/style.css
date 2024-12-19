@@ -1,3 +1,11 @@
+/* Wildcard or universal selector - this will stop the default styling from broswers
+so it will select all elements and give is 0 for padding and margin unless the element is
+explicitly told to have some */
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* styles for the body element */
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -7,7 +15,7 @@ body{
 /* The CSS Box Model is a visual display of properties in the CSS box
 that includes the content, padding, border, and margins. 
 From top the bottom the CSS Box Model goes Margin - Border - Padding - (Content)*/
-/* Padding creates space inside the box whereas margin creates space outsdie the box */
+/* Padding creates space inside the box whereas margin creates space outside the box */
 
 /* styles for the header element */
 header {
@@ -23,9 +31,28 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
 }
 
 /* styles for a in the header element   */
 header a {
+    text-decoration: none;
     color: #fce138;
+}
+
+/* styles for the nav element in the header element  */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/* li elements inside the header  */
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a{
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
 }
