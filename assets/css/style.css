@@ -1,31 +1,35 @@
-/* Wildcard or universal selector - this will stop the default styling from broswers
-so it will select all elements and give is 0 for padding and margin unless the element is
-explicitly told to have some */
+    /* Wildcard or universal selector - this will stop the default styling from broswers
+    so it will select all elements and give is 0 for padding and margin unless the element is
+    explicitly told to have some */
 *{
     margin: 0;
     padding: 0;
+        /* this will tell the browser to ignore padding in the overall width */
+        /* box-sizing property determins how to calulate the width and height of
+        each element.  */
+    box-sizing: border-box;
 }
 
-/* styles for the body element */
+    /* styles for the body element */
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: #39a6B2;
 }
 
-/* The CSS Box Model is a visual display of properties in the CSS box
-that includes the content, padding, border, and margins. 
-From top the bottom the CSS Box Model goes Margin - Border - Padding - (Content)*/
-/* Padding creates space inside the box whereas margin creates space outside the box */
+    /* The CSS Box Model is a visual display of properties in the CSS box
+    that includes the content, padding, border, and margins. 
+    From top the bottom the CSS Box Model goes Margin - Border - Padding - (Content)*/
+    /* Padding creates space inside the box whereas margin creates space outside the box */
 
-/* styles for the header element */
+    /* styles for the header element */
 header {
-    /* In this case padding applies 20px to the top and bottom
-    and 35px to the left and right but padding goes Top right Bottom Left */
+        /* In this case padding applies 20px to the top and bottom
+        and 35px to the left and right but padding goes Top right Bottom Left */
     padding: 20px 35px;
     background-color: #39a6b2;
 }
 
-/* styles for h1 in the header element  */
+    /* styles for h1 in the header element  */
 header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -34,19 +38,19 @@ header h1 {
     display: inline;
 }
 
-/* styles for a in the header element   */
+    /* styles for a in the header element   */
 header a {
     text-decoration: none;
     color: #fce138;
 }
 
-/* styles for the nav element in the header element  */
+    /* styles for the nav element in the header element  */
 header nav {
     float: right;
     margin: 7px 0;
 }
 
-/* li elements inside the header  */
+    /* li elements inside the header  */
 header nav ul li {
     display: inline;
 }
@@ -55,4 +59,33 @@ header nav ul li a{
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+
+
+footer {
+    background: #fce138;
+    width: 100%;   
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+        /* line height assigns how much vertical space 
+        should be between lines of text content.
+        1.5 means it will be 1.5 times the size of the font.*/
+    line-height: 1.5;
+        /* text-align property lets us align the text to the left,
+        right, center, or justified. By default it's left aligned */
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
 }
