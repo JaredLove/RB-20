@@ -58,8 +58,53 @@
 
             <!-- hero/jumbotron -->
         <section>
+            <div>
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult.</p>
 
+                    <!-- sign up form -->
+                     <!-- A sign up form is a 'call to action', or CTA.
+                      The main purpose is to encourage users via a story,
+                      advertisement, or dazzling puiece of content to do 
+                      somthing. -->
+                <form>
+                        <!-- text feilds are where users will enter information -->
+                        <!-- the label element offers a visual directive of what to enter  
+                        but also programmatically liks to the associated input -->
+                        <!-- the for attribute links programmatically to the id attribute in input  -->
+                        <!-- the type attribute relates tp the type of input element we're using.  -->
+                        <!-- the placeholder attribute offers a hint or label within the text field  -->
+                        <!-- the name attribute identifies the element so the response can be referenced after
+                        the form is submitted -->
+                     <label for="name">Enter full name:</label>
+                     <input type="text" placeholder="Enter Full Name:" name="name" id="name"/>
+                     <label for="email">Enter email address:</label>
+                     <input type="email" placeholder="Email Address:" name="email" id="email"/>
+                     <label for="phone">Enter a telephone number:</label>
+                     <input type="tel" placeholder="Phone Number:" name="number" id="number"/>
+
+                    <p>
+                        Have you worked out with a trainer before?
+
+                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                        <label for="trainer-no">No</label>
+
+                    </p>
+                    
+                    <p>
+                        <label for="checkbox">
+                            I acknowledge that I am at least 18 years of age.
+                        </label>
+                        <input type="checkbox" name="age-confirm" id="checkbox" />
+                    </p>
+
+                    <button type="submit">Get Running</button>
+                </form>
+            </div>
         </section>
+            <!-- end hero/jumbotron -->
 
             <!-- "what we do" section  -->
         <section>
@@ -85,7 +130,7 @@
             <h2>Made with love by Run Buddy.</h2>
             <div>
                 <a href="#">Read Our Privacy Policy</a><br/>
-                &copy; 2024 Run Buddy, Inc.
+                &copy; 2025 Run Buddy, Inc.
             </div>
         </footer>
 
