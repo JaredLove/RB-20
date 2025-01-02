@@ -16,6 +16,11 @@ body{
     color: #39a6B2;
 }
 
+    /* style for all section elements  */
+section {
+    padding: 60px;
+}
+
     /* The CSS Box Model is a visual display of properties in the CSS box
     that includes the content, padding, border, and margins. 
     From top the bottom the CSS Box Model goes Margin - Border - Padding - (Content)*/
@@ -27,6 +32,7 @@ header {
         and 35px to the left and right but padding goes Top right Bottom Left */
     padding: 20px 35px;
     background-color: #39a6b2;
+    height: 100%;
 }
 
     /* styles for h1 in the header element  */
@@ -61,6 +67,66 @@ header nav ul li a{
     font-size: 22px;
 }
 
+    /* end header styling  */
+
+    /* hero styling */
+.hero{
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+    /* end hero styling */
+
+    /* hero form styling */
+.hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.form-input{
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+    /* end hero form  */
+
+    /* footer stying  */
 
 footer {
     background: #fce138;
@@ -89,3 +155,5 @@ footer div {
 footer a {
     color: #024e76;
 }
+
+/* end footer styling  */
