@@ -24,6 +24,24 @@ section {
     padding: 60px;
 }
 
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #fce138;
+    display: inline-block;
+}
+
+.primary-border{
+    border-color: #fce138;
+}
+
+.secondary-border{
+    border-color: #39a6b2;
+}
+
     /* The CSS Box Model is a visual display of properties in the CSS box
     that includes the content, padding, border, and margins. 
     From top the bottom the CSS Box Model goes Margin - Border - Padding - (Content)*/
@@ -133,15 +151,6 @@ header nav ul li a{
 .intro {
     text-align: center;
 }
-.intro h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-    display: inline-block;
-}
 
 .intro p {
     line-height: 1.7;
@@ -151,6 +160,38 @@ header nav ul li a{
     margin: 0 auto;
 }
     /* end of what we do  */
+
+    /* what you do styles */
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.steps span {
+    font-size: 38px;
+}
+
+    /* end of what you do  */
 
     /* footer stying  */
 
