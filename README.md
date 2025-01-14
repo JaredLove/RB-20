@@ -19,3 +19,6 @@
 
 # Contribution
     Made by Jared
+
+
+### ©2025 Run Buddy, Inc
