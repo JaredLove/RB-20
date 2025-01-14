@@ -62,6 +62,9 @@ header {
     padding: 20px 35px;
     background-color: #39a6b2;
     height: 100%;
+    background-image: url("../images/hero-bg.jpg");
+    background-position: top;
+    background-size: cover;
 }
 
     /* styles for h1 in the header element  */
@@ -120,6 +123,8 @@ header nav ul li a{
     position: absolute;
     bottom: 120px;
     right: 140px;
+    border-radius: 10px;
+    opacity: .9;
 }
 
 .hero-form p {
@@ -152,6 +157,23 @@ header nav ul li a{
     border: none;
     font-size: 16px;
     border-radius: 5px;
+}
+
+.hero-cta{
+    position: absolute;
+    left: 300px;
+
+}
+
+.hero-cta h3{
+    color: #fce138;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.hero-cta p{
+    color: #fff;
+    width: 60ch;
 }
     /* end hero form  */
 
