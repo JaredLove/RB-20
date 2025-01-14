@@ -65,6 +65,9 @@ header {
     background-image: url("../images/hero-bg.jpg");
     background-position: top;
     background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
     /* styles for h1 in the header element  */
@@ -73,7 +76,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
+
 }
 
     /* styles for a in the header element   */
@@ -84,7 +87,6 @@ header a {
 
     /* styles for the nav element in the header element  */
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
